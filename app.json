@@ -1,0 +1,46 @@
+/*
+  Build configuration process -> https://docs.expo.dev/build-reference/build-configuration/
+  Android build process -> https://docs.expo.dev/build-reference/android-builds/
+  iOS build process -> https://docs.expo.dev/build-reference/ios-builds/
+
+*/
+{
+    "expo": {
+      "name": "AwesomeProject", // this is the name of the project
+      "slug": "test", // this is the name of the slug of the project which can't be changed once created
+      "version": "1.0.1", // every time you have change this version when release application
+      "orientation": "default", // default orientation means automatically rotate the screen of application. other orientations are landscape and portrait
+      "icon": "./assets/icon.png",
+      "userInterfaceStyle": "light",
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff"
+      },
+      "assetBundlePatterns": [
+        "**/*"
+      ],
+      "ios": {
+        "supportsTablet": true,
+        "bundleIdentifier": "com.msrajawat298.test" 
+      },
+      "android": {
+        "adaptiveIcon": {
+          "foregroundImage": "./assets/adaptive-icon.png",
+          "backgroundColor": "#ffffff"
+        },
+        "package": "com.msrajawat298.test", // this is also unique can't change once created
+        "versionCode": 2 // you must have manually change during publish the application on play store 
+      },
+      "web": {
+        "favicon": "./assets/favicon.png"
+      },
+      "extra": {
+        "eas": {
+          "projectId": "80decbf6-d694-4bfb-88e9-7fef074edf00"
+        }
+      },
+      "owner": "msrajawat298"
+    }
+  }
+  
