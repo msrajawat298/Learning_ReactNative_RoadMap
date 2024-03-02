@@ -20,6 +20,11 @@ Certainly! Here's a list of useful commands commonly used during the development
     "easv": "eas --version", // checking the expo version 
     "login": "eas login", // you have to login first for generate the build
     "islogin": "eas whoami", // to check is login
+    "build:debug": "expo run:android",
+    "build:release":"expo run:android --variant release", // generate the production build apk file locally
+    "abb:local": "eas build -p android --local", // generate the production build abb file locally
+    "check": "expo install --check", // checking dependencies
+    "dfix": "doctor --fix-dependencies", // auto fix dependencies
     }
 ```
 ## Expo-doctor is an NPM package that checks for known issues in an Expo project.
@@ -32,5 +37,20 @@ npx expo install --fix
 ```
 
 [RUN_EXPO_DOCTOR] Advice: Use 'npx expo install --check' to review and upgrade your dependencies.
+
+
+You can just run ```eas build with --local``` param like 
+```eas build --platform android --local```
+```eas build --platform ios --local```
+Note, ```--platform all``` is not allowed in this case
+
+First you need to generate the native app files by executing expo prebuild:
+```npx expo prebuild```
+
+To directly run the build have a device connected or an emulator running:
+```npx react-native run-android --mode="release"```
+
+else Build with:
+```npx react-native build-android --mode=release```
 
 These commands should cover most of the common tasks during React Native app development with Expo.
