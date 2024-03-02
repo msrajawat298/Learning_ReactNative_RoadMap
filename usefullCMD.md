@@ -22,5 +22,15 @@ Certainly! Here's a list of useful commands commonly used during the development
     "islogin": "eas whoami", // to check is login
     }
 ```
+## Expo-doctor is an NPM package that checks for known issues in an Expo project.
+
+```bash
+npx expo-doctor@latest
+npx expo install --check
+expo doctor --fix-dependencies
+npx expo install --fix
+```
+
+[RUN_EXPO_DOCTOR] Advice: Use 'npx expo install --check' to review and upgrade your dependencies.
 
 These commands should cover most of the common tasks during React Native app development with Expo.

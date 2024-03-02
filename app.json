@@ -2,6 +2,8 @@
   Build configuration process -> https://docs.expo.dev/build-reference/build-configuration/
   Android build process -> https://docs.expo.dev/build-reference/android-builds/
   iOS build process -> https://docs.expo.dev/build-reference/ios-builds/
+  app.json / app.config.js -> https://docs.expo.dev/versions/latest/config/app/
+  Permissions -> https://docs.expo.dev/guides/permissions/ (Learn about configuring and adding permissions in an app config file.)
 
 */
 {

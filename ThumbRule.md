@@ -35,3 +35,7 @@
 This structure keeps concerns separated, making it easier to navigate through the codebase and understand where different functionalities reside. Additionally, it facilitates collaboration among team members and allows for easier maintenance as the project grows.
 
 However, keep in mind that this structure is a suggestion and might need to be adjusted based on the specific requirements of your project. It's also important to maintain consistency within your team and document any deviations from the standard structure.
+
+## Reference Links ::
+
+- [expo project-structure](https://docs.expo.dev/develop/project-structure/)
