@@ -143,6 +143,7 @@ Similar to this there are lots of basic components that you can cover React Nati
 - [Build your app locally with expo](https://docs.expo.dev/deploy/build-project/#production-builds-locally)
 - [Build your app locally without expo](https://reactnative.dev/docs/signed-apk-android)
 - [App Version Management](https://docs.expo.dev/build-reference/app-versions/)
+- [Know more about Atomic design System](https://atomicdesign.bradfrost.com/chapter-2)
 
 # Other Links: 
 - [Host your node or react apps](https://dashboard.render.com/)
