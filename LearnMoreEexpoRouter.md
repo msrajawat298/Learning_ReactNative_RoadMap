@@ -7,9 +7,13 @@ This repository contains resources and links related to deep linking and Expo ro
 
 #### Videos
 - [Deep Linking Explained](https://youtu.be/RglRiycD0oQ?si=RCZEN_7zXCsNUKlM)
+- [Implement Dark Mode in React Native](https://youtu.be/JD5scyA6v0c?si=wvrTpvzLbCpM0wdV)
+- [Migrating from React Navigation to Expo Router](https://youtu.be/NHNb--ISlig?si=iF4QQ5ydNoLs-AEQ)
+- [Learn Expo Router](https://youtu.be/Z20nUdAUGmM)
 
 #### Courses
 - [React Native Quickstart](https://galaxies.dev/course/react-native-quickstart)
+
 
 #### Expo Router Documentation
 - [Introduction to Expo Router](https://docs.expo.dev/router/introduction/)
@@ -34,6 +38,10 @@ This repository contains resources and links related to deep linking and Expo ro
 - [Tutorials](https://galaxies.dev/tutorials)
 - [React Native Maps](https://galaxies.dev/react-native-maps)
 - [React Native Parallax Image](https://galaxies.dev/react-native-parallax-image)
+- [Top-tab-navigator](https://reactnavigation.org/docs/material-top-tab-navigator/)
+- [10 Must-Have React Native Components 😎](https://youtu.be/wsZ_mjXk6Hg?si=Uad0e4fWf3iovYap)
+- [FlatList is killing the performance of your app](https://youtu.be/1l5Pn4VbnO4?si=ZQsveDpwYpkkOCAM)
+- [Expo Router](https://docs.expo.dev/router/create-pages/)
 
 #### Related Links
 - [Local First Web](https://localfirstweb.dev/)

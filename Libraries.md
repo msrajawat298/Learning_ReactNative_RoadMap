@@ -32,3 +32,6 @@ https://wix.github.io/react-native-ui-lib/
     - It simplifies the process of adding data visualization to your app. 
     - It's a valuable tool for creating engaging and informative dashboards or reports within your app.
     - Easy-to-use charting components, customizable and interactive charts, supports for various chart types.
+
+## UI Samples
+- [react-native-paper-login-template](https://github.com/callstack/react-native-paper-login-template/tree/master)
